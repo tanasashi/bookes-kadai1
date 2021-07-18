@@ -1,0 +1,49 @@
+// Place all the styles related to the homes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.header {
+  color: black;
+  font-size: 26px;
+  line-height: 18px;
+  margin-top: 33px;
+  margin-left: 33px;
+}
+
+.header-main {
+  margin: 33px;
+}
+
+strong {
+  color: black;
+}
+
+a:hover {
+  color: white;
+  background-color: black;
+}
+
+.main {
+  color: black;
+  margin-left: 33px;
+  font-size: 13px;
+  line-height: 18px;
+  margin-bottom: 33px;
+}
+
